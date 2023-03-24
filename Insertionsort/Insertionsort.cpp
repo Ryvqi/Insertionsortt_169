@@ -55,12 +55,18 @@ void insertionsort() {                  //Procedure insertionsort
         cout << "\nPass " << i << ": ";   //Output ke layar
         for (int k = 0; k < n; k++) {     //Looping nilai k dimulai dari 0 hingga n-1
             cout << arr[k] << " ";        //Output ke layar
-        }
-    
-    
-    
+        }   
     }
     
+}
+
+void display() {
+    cout << endl;                                          //Output baris ksosong
+    cout << "\n=================================" << endl;  //Output ke layar
+    cout << "Element Array yang telah tersusun" << endl;   //Output ke layar
+    cout << "==================================" << endl;   //Output ke layar
+
+
 }
 int main()
 {
